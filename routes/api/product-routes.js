@@ -14,11 +14,6 @@ router.get('/', (req, res) => {
       {
         model: Category,
         atrributes: ['id', 'category_name'],
-        include: {
-          //has to include user itself to attach the username to the comment
-          model: User,
-          attributes: ['username']
-        }
       },
       {
         model: Tag,
@@ -51,11 +46,6 @@ router.get('/:id', (req, res) => {
       {
         model: Category,
         atrributes: ['id', 'category_name'],
-        include: {
-          //has to include user itself to attach the username to the comment
-          model: User,
-          attributes: ['username']
-        }
       },
       {
         model: Tag,
