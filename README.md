@@ -30,6 +30,16 @@ To get started using this E-commerce database...
 7. Enter ```npm start``` into the command line to start the server and change code back to { force : false }.
 8. Use Insomnia to test routes and add/delete/update data until this application is linked to a front end server.
 
+
+
+https://user-images.githubusercontent.com/103510105/182962722-67793f86-f2a6-4206-b831-4d5d71bc6af4.mp4
+
+
+
+https://user-images.githubusercontent.com/103510105/182962732-c2dd8f9f-933f-4721-ac89-1d708ee8cddf.mp4
+
+
+
 ## License
 This project is not licensed.
 
