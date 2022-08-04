@@ -12,12 +12,10 @@ router.get('/', (req, res) => {
     // be sure to include its associated Category and Tag data
     include: [
       {
-        model: Category,
-        atrributes: ['id', 'category_name'],
+        model: Category
       },
       {
-        model: Tag,
-        attributes: ['id', "tag_name"]
+        model: Tag
       }
     ]
   })
@@ -40,16 +38,10 @@ router.get('/:id', (req, res) => {
     // be sure to include its associated Category and Tag data
     include: [
       {
-        model: Category,
-        atrributes: ['id', 'category_name'],
+        model: Category
       },
       {
-        model: Tag,
-        attributes: ['id', 'tag_name'],
-        include: {
-          model: ProductTag,
-          attributes: ['id', 'product_id', 'tag_id']
-        }
+        model: Tag
       }
     ]
   })
